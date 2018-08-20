@@ -25,7 +25,9 @@ zuul:
     batches: 
       path: /batches/**
       serviceId: batch-service        
-
+    calendars:
+      path: /calendars/**
+      serviceId: pebbles-calendar
 ribbon:
   eureka:
     enabled: true
