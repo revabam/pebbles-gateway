@@ -28,6 +28,9 @@ zuul:
     calendars:
       path: /calendars/**
       serviceId: pebbles-calendar
+    curriculums:
+      path: /curriculums/**
+      serviceId: pebbles-curriculum
 ribbon:
   eureka:
     enabled: true
