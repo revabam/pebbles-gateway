@@ -93,3 +93,4 @@ package-lock.json
 
 # hibernate config xml
 hibernate.cfg.xml
+/target/
