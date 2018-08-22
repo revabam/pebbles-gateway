@@ -24,7 +24,7 @@ zuul:
       serviceId: pebbles-user
     batches: 
       path: /batches/**
-      serviceId: batch-service        
+      serviceId: pebbles-batch        
     calendars:
       path: /calendars/**
       serviceId: pebbles-calendar

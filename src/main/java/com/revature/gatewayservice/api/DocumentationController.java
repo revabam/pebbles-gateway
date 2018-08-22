@@ -18,7 +18,7 @@ public class DocumentationController implements SwaggerResourcesProvider {
 	@Override
 	public List<SwaggerResource> get() {
 		List<SwaggerResource> resources = new ArrayList<>();
-		resources.add(swaggerResource("batch-service", "/bam/batches/v2/api-docs", "2.0"));
+		resources.add(swaggerResource("pebbles-batch", "/bam/batches/v2/api-docs", "2.0"));
 		resources.add(swaggerResource("pebbles-user", "/bam/users/v2/api-docs", "2.0"));
 		resources.add(swaggerResource("pebbles-calendar", "/bam/calendars/v2/api-docs", "2.0"));
 		resources.add(swaggerResource("pebbles-curriculum", "/bam/curriculums/v2/api-docs", "2.0"));

@@ -8,16 +8,16 @@
 	<name>pebbles-gateway</name>
 
 
-	<!-- Relying on this parent POM allows Spring Boot to hande Configuration,
-	dependency management and default plugin configuration for this project -->
+	<!-- Relying on this parent POM allows Spring Boot to hande Configuration, 
+		dependency management and default plugin configuration for this project -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.9.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	
-	
+
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -55,16 +55,16 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.7.0</version>
 		</dependency>
-		
-		<!-- Dev Tools -->
+
+		<!-- Dev Tools
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
-		</dependency>
-		
+		</dependency> -->
+
 	</dependencies>
-	
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -76,7 +76,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	
+
 	<build>
 		<finalName>pebbles-gateway</finalName>
 		<plugins>

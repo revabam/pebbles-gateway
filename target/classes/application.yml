@@ -24,10 +24,13 @@ zuul:
       serviceId: pebbles-user
     batches: 
       path: /batches/**
-      serviceId: batch-service        
+      serviceId: pebbles-batch        
     calendars:
       path: /calendars/**
       serviceId: pebbles-calendar
+    curriculums:
+      path: /curriculums/**
+      serviceId: pebbles-curriculum
 ribbon:
   eureka:
     enabled: true
