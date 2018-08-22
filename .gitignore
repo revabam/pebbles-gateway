@@ -36,7 +36,6 @@ local.properties
 .settings/ 
 .loadpath 
 .recommenders 
-target/
 
 # Eclipse Core 
 .project 
@@ -84,13 +83,8 @@ RemoteSystemsTempFiles/
 .scala_dependencies 
 .worksheet 
 
-# .properties files
-*.properties
-!application.properties
-
 # package-lock.json
 package-lock.json
 
 # hibernate config xml
 hibernate.cfg.xml
-/target/
