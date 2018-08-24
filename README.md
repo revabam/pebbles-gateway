@@ -1,10 +1,9 @@
 # pebbles-gateway
 Gateway Service (Zuul) application for the Pebbles Microservice Ecosystem
 
-# Sprint 1 Final Thoughts
+# Sprint 1 Final Thoughts - 8/24/18
 
 - Brandon Scoggins | 1806-Jun-USF-Java | Wezley Singleton
-- 8/24/18
 
 The Zuul Gateway service is fully operational, and contains a centralized Docket for swagger documentation for all of its registered
 services. Any future services will need to be registered with the gateway in it's application.yml file (for gateway functionallity), 
