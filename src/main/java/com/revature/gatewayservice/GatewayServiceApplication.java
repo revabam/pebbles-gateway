@@ -32,6 +32,12 @@ public class GatewayServiceApplication {
 				.paths(PathSelectors.any()).build();
 	}
 	
+	/**
+	 * This bean exists because we can not configure using mvc because Zuul does not have an @Controller 
+	 * It will prevent the cors filter error (DON'T DELETE)
+	 * 
+	 * @return
+	 */
 	@Bean
 	public CorsFilter corsFilter() {
 	   final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
