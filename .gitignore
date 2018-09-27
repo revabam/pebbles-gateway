@@ -41,6 +41,7 @@ target/
 .project 
 Servers/
 RemoteSystemsTempFiles/
+target/
 
 # External tool builders 
 .externalToolBuilders/ 
