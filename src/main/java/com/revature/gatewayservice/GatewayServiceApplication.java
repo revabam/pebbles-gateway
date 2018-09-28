@@ -37,6 +37,7 @@ public class GatewayServiceApplication {
 	 * It will prevent the cors filter error (DON'T DELETE)
 	 * 
 	 * @return
+	 * @author Alicia Douglas, Batch: 1806-spark, Trainer: Steven Kelsey
 	 */
 	@Bean
 	public CorsFilter corsFilter() {
